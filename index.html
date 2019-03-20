@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- Title tag defines browser title -->
+    <title>Example Company Website</title>
+
+    <!--Bootstrap CSS File -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Website CSS File -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Company Name</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header>
+        <div class="container">
+            <center>
+                <h1>Company Name</h1>
+            </center>
+            <p>Insert detailed paragraph about company here</p>
+            <button class="btn btn-lg btn-primary">Click Me</button>
+            <button class="btn btn-lg btn-success">No Click Me Instead</button>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="services container">
+        <h1>Services</h1>
+        <p>Our company offers an array of services, including Service A, Service B, Service C</p>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <i class="fas fa-desktop"></i>
+                <span><strong>Web Design</strong></span>
+                <p>We offer web design services to businesses who are interested in creating a digital presence.</p>
+            </div>
+
+            <div class="col-md-6">
+                <i class="fas fa-mobile-alt"></i>
+                <span><strong>Mobile Applications</strong></span>
+                <p>We create mobile applications for companies who are interested in expanding their product to reach a larger audience.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <i class="fas fa-database"></i>
+                <span><strong>Database</strong></span>
+                <p>We offer database services to businesses who need digital storage space for their applications.</p>
+            </div>
+
+            <div class="col-md-6">
+                <i class="fas fa-university"></i>
+                <span><strong>Consulting</strong></span>
+                <p>We offer consulting services to businesses who want to expand their business using technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Pricing Challenge-->
+    <section id="pricing" class="pricing container">
+        <h1>Pricing</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="package">
+                    <h3 class="packageOne">Standard</h3>
+                    <h4>$9.99/Month</h4>
+                    <ul>
+                        <li>100 Users</li>
+                        <li>SSL Certificates</li>
+                        <li>Online Support</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="package">
+                    <h3 class="packageTwo">Premium</h3>
+                    <h4>$19.99/Month</h4>
+                    <ul>
+                        <li>100 Users</li>
+                        <li>SSL Certificates</li>
+                        <li>Online Support</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="package">
+                    <h3 class="packageThree">Ultimate</h3>
+                    <h4>$29.99/Month</h4>
+                    <ul>
+                        <li>100 Users</li>
+                        <li>SSL Certificates</li>
+                        <li>Online Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="team container">
+        <h1>Team Section</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="person15.png"></img>
+                <h3>Person 1</h3>
+                <h4>CEO</h4>
+                <p>I am the CEO of a shady company.</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="person13.jpg"></img>
+                <h3>Person 2</h3>
+                <h4>C0O</h4>
+                <p>I am the COO of the company.</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="person12.jpg"></img>
+                <h3>Person 3</h3>
+                <h4>CFO</h4>
+                <p>I am the CFO of the company.</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="person14.JPG"></img>
+                <h3>Person 4</h3>
+                <h4>CMO</h4>
+                <p>I am the CMO of this company.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+        <h1>Contact</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <i class="fas fa-user"></i></i>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6">
+                    <div class="input-group">
+                        <textarea cols="80" rows="6" class="form-control"></textarea>
+                    </div>
+                    <button type=button class="btn btn-danger">Submit Your Message</button>
+                </div>
+            </div>
+        </section>
+    
+    <!--Footer Information -->
+        <footer class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p><i class="fa fa-home" aria-hidden="true"></i>Address</p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>Email</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>Phone Number</p>
+                    <p><i class="fa fa-globe" aria-hidden="true"></i>Website</p>
+                </div> 
+                
+                <div class="col-lg-4 col-md-4">
+                    <h4>About Us</h4>
+                    <p><i class="far fa-square" aria-hidden="true"></i>About Us</p>
+                    <p><i class="far fa-square" aria-hidden="true"></i>Privacy</p>
+                    <p><i class="far fa-square" aria-hidden="true"></i>Terms and Conditions</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Social Media</h4>
+                    <div class="social-icons">
+                        <a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <input type="email" placeholder="Subscribe"><button id="subscribe" class="btn btn-success">Subscribe</button>
+                </div>
+            </div>
+        </footer>
+        -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

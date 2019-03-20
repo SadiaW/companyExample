@@ -1,0 +1,156 @@
+/* Navbar */
+
+nav {
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+}
+
+.nav-link{
+    opacity: 0.7;
+}
+
+.nav-link:hover{
+    opacity: 1;
+    background-color: #eee;
+}
+
+/*Header*/
+header{
+    /*Sizing of the element*/
+    height: 600px;
+    width:100%;
+    /*Set and adjust background image*/
+    background-image: url("bg4.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    /*Text properties for itself and all children elements*/
+    color: #660033;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1{
+    font-size: 80px;
+    padding: 40px;
+}
+
+header p{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 450;
+    padding-bottom: 30px;
+}
+
+/*Services*/
+.services{
+    padding: 80px 0 80px 0;
+    text-align: center;
+    background-color: #d6f5f5;
+}
+
+.services i{
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    /*Color changes the color of the icon*/
+    color: #fff;
+    background-color: #5bc0de;
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+
+.services span{
+    width: 200px;
+    display: inline-block;
+    font-size: 20px;
+}
+.services h1, .services span{
+    color: #323A45;
+}
+
+/*Pricing*/
+section {
+    text-align: center;
+}
+
+section h1{
+    margin: 30px;
+}
+
+.pricing .package{
+    /*Border Styles*/
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 5px 5px #bbb;
+    border-radius: 5px;
+}
+
+.pricing ul{
+    /*Remove bullet points*/
+    list-style-type: none;
+    /*Remove indentation*/
+    padding: 0px;
+    /*Edit spacing and text styles*/
+    margin:50px;
+    font-size: 20px;
+}
+
+
+.packageOne, .packageThree {
+    height: 130px;
+    padding:50px;
+    margin: 20px;
+    font-size: 30px;
+    background-color: #323A45;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.packageTwo {
+    height: 140px;
+    padding:50px;
+    margin: 20px 20px 10px 20px;
+    font-size: 30px;
+    background-color: #0dc0c0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.package h4{
+    height: 90px;
+    padding:30px;
+    margin: 0px 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+/*Team*/
+.team{
+    background-color: #d6f5f5;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+/*Contact*/
+.contact{
+    background-color: pink;
+    margin-bottom: 80px;
+}
+
+.contact .input-group{
+  margin-bottom: 25px;
+}
+
+.contact i {
+    padding: 16.5px;
+}
